@@ -49,8 +49,8 @@ This Project aims at predicting behaviour patterns in young adults using supervi
 
 **Common data cleaning steps:**
 
-* <b>1)</b>dropna() - Used to drop the columns where any element is nan.
-* <b>1)</b>dGet_dummies () - This helps in converting categorical variables into dummy/indicator variables
+* <b>1)</b> dropna() - Used to drop the columns where any element is nan.
+* <b>1)</b> Get_dummies () - This helps in converting categorical variables into dummy/indicator variables
 
 * Sample Code: 
 ```
@@ -83,7 +83,8 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 
 #### Logestic Regression 
 ******************************************************************************************************************************
-
+1. weewewe
+2. 2eewe
 
 
 #### Clustering 
