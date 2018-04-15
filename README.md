@@ -29,7 +29,7 @@ This Project aims at predicting behaviour patterns in young adults using supervi
 
 * In 2013, students of the Statistics class at FSEV UK were asked to invite their friends to participate in this survey.
 * The data file (responses.csv) consists of 1010 rows and 150 columns (139 integer and 11 categorical).
-* For convenience, the original variable names were shortened in the data file. See the columns.csv file if you want to match the data with the original names.
+* For convenience, the original variable names were shortened in the data file. 
 * The data contain missing values.
 * The survey was presented to participants in both electronic and written form.
 * The original questionnaire was in Slovak language and was later translated into English.
@@ -80,18 +80,33 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 
 ![heatplot](https://user-images.githubusercontent.com/25557540/38773151-0ba24c4a-3ffb-11e8-877d-8377471807b9.png)
 
+**Following are the insights I plan to explore in this dataset:**
 
-#### Logestic Regression 
+1. Lonliness - What are the factors contributing in a person's feeling of Lonliness.
+2. Life Struggles - Height and weight ? - Who is struggling more in their life.
+3. Drinkers vs Non-drinkers - Predicting based on person's choices and character traits.
+
+**To do the analysis on the above mentioned areas the following Machine Learning Techniques:**
+
+1. Lonliness - Logistic Regression
+2. Life Struggles - Relationship with Height and Weight ? - Logistic Regression
+3. Drinkers and Non-drinkers - Decision Tree
 ******************************************************************************************************************************
-1. weewewe
-2. 2eewe
+#### Logestic Regression - Loneliness
+
+* In this analysis, I am trying to use logistic regression to check wether I can get an interesting insight related to Loneliness. Also, I would like to see which all features can be attributed towards Loneliness.
+* For this analysis the following steps were performed:
+1. Null values were removed. This step was done as a common step at the top.
+2. The dummies variables were created from the categorical variables.
+3. Creating two data frames males and females for the purpose of visualising
 
 
-#### Clustering 
+
+******************************************************************************************************************************
+#### Decision Tree
 
 ******************************************************************************************************************************
 ******************************************************************************************************************************
-
 ### V. Conclusion:
 
 
