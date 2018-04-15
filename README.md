@@ -49,9 +49,8 @@ This Project aims at predicting behaviour patterns in young adults using supervi
 
 **Common data cleaning steps:**
 
-<b>1)</b>dropna() - Used to drop the columns where any element is nan.
-<b>1)</b>dGet_dummies () - This helps in converting categorical variables into dummy/indicator variables
-* Sample code: response = response.dropna()
+* <b>1)</b>dropna() - Used to drop the columns where any element is nan.
+* <b>1)</b>dGet_dummies () - This helps in converting categorical variables into dummy/indicator variables
 
 * Sample Code: 
 ```
