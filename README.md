@@ -47,7 +47,16 @@ This Project aims at predicting behaviour patterns in young adults using supervi
 ******************************************************************************************************************************
 **Dataset Cleaning:**
 
+**Common data cleaning steps:**
 
+<b>1)</b>dropna() - Used to drop the columns where any element is nan.
+<b>1)</b>dGet_dummies () - This helps in converting categorical variables into dummy/indicator variables
+* Sample code: response = response.dropna()
+
+* Sample Code: 
+```
+responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol', 'Internet usage', 'Gender', 'Left - right handed', 'Education', 'Only child', 'Village - town', 'House - block of flats'],data=responses)
+```
 ******************************************************************************************************************************
 ******************************************************************************************************************************
 ### III. Exploratory Analysis:
@@ -85,7 +94,6 @@ This Project aims at predicting behaviour patterns in young adults using supervi
 
 ### V. Conclusion:
 
-<img width="976" alt="screen shot 2018-04-09 at 3 37 26 am" src="https://user-images.githubusercontent.com/25557540/38493528-64b51838-3ba7-11e8-8669-c27fad26faff.png">
 
 ******************************************************************************************************************************
 ******************************************************************************************************************************
