@@ -92,7 +92,7 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 2. Life Struggles - Relationship with Height and Weight ? - Logistic Regression
 3. Drinkers and Non-drinkers - Decision Tree
 ******************************************************************************************************************************
-#### Logestic Regression - Loneliness
+ **Logestic Regression - Loneliness:**
 
 * In this analysis, I am trying to use logistic regression to check wether I can get an interesting insight related to Loneliness. Also, I would like to see which all features can be attributed towards Loneliness.
 * For this analysis the following steps were performed:
@@ -103,7 +103,7 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 
 
 ******************************************************************************************************************************
-#### Decision Tree
+**Decision Tree:**
 
 ******************************************************************************************************************************
 ******************************************************************************************************************************
