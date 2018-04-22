@@ -138,10 +138,6 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 * But if you are tall, or weigh a lot or like "PC Software, Hardware" then you are probably a man.
 * Negative correlation between Life struggles and height/weight was due to the female and male separation.
 
-
-
-
-
 ******************************************************************************************************************************
 **Decision Tree:**
 
@@ -173,10 +169,13 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 ******************************************************************************************************************************
 ### VI. Future Enhancements:
 
+
 ******************************************************************************************************************************
 ******************************************************************************************************************************
 ### VII. References:
-
+* https://www.kaggle.com/miroslavsabo/young-people-survey
+* https://rstudio-pubs-static.s3.amazonaws.com/263733_b879f33aa4ac4499a68268845dc774d8.html
+* 
 
 
 
