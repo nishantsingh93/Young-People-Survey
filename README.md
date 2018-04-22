@@ -162,6 +162,12 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 ******************************************************************************************************************************
 ### V. Conclusion:
 
+**Loneliness:** The Co-op Foundations and charitable organizations working to prevent and tackle youth loneliness can take these factors into consideration to help young people form stronger connections within their community.
+
+**Life Struggles:** Please take care of females! It is the moral responsibility of everyone to treat women with respect and dignity as they already have a lot of struggles.
+
+**Drinkers vs Non-drinkers:** It was surprising to find that teenagers of age 15-16 tend to drink more even though they are not legally allowed to do so. Underage drinking is a serious public health problem in the society. According to a study, Britain has the fourth highest levels of underage drinking among 15-years-olds. Parents and public welfare organizations can work together to fight this issue by focusing on the factors in the above analysis.
+
 
 ******************************************************************************************************************************
 ******************************************************************************************************************************
