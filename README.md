@@ -100,6 +100,47 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 2. The dummies variables were created from the categorical variables.
 3. Creating two data frames males and females for the purpose of visualising
 
+**Result:**
+
+![ivsin](https://user-images.githubusercontent.com/25557540/38773154-0beadbb8-3ffb-11e8-8bb5-7ac34c81b50b.png)
+
+**How to predict a young person’s loneliness?:**
+* Firstly I transformed our original loneliness variable to a dummy variable.
+* Loneliness > 3 are considered as lonely.
+* Loneliness<=3 are considered not lonely.
+* Using  logistic regression model with 71 variables, I can predict a person’s loneliness level at an accuracy rate of 71% with (K-fold) test sets.
+* The variables with largest coefficients can be found in above figure.
+* Pepople who like writing, have fear of public speaking, surfs a lot on internet,enjoys using PC & spends a lot on gadgets can have high degree of Loneliness whereas if they like spending time with friends, likes active sports, geography, pets & entertainment are negatively related with Loneliness
+
+
+******************************************************************************************************************************
+ **Logestic Regression - Life Struggles:**
+
+* In this analysis, I am trying to use logistic regression to check wether we can get an interesting insight related to Life Struggles.
+* Also,I would like to see which all features can be attributed towards Life struggles.
+
+* For this analysis the following steps were performed:
+
+1. Null values were removed. This step was done as a common step at the top.
+2. The dummies variables were created from the categorical variables.
+2. Finding the highest correlations.
+3. Trying to find the reasons behind those correlations.
+
+**Result:**
+
+* The most correlated features are Height and Weight which are self-explanaroty. 
+* People who are interested in Biology are also interested in Medicine and Chemistry. 
+* The same for Fantasy/Fairy tales and Animated movies.
+* one might ask why there is a negative correlation between Life struggles, Weight and Height. Let's explore further to understand the reasons behind this correlation.
+* If i observe the correlations of Life struggles, and hight and weight, I will see that these three variables are highly correlated with gender
+![imp](https://user-images.githubusercontent.com/25557540/38773153-0bd1f1f2-3ffb-11e8-9a68-a3763fa2896e.png)
+
+* If you have more life struggles in life, you are probably a woman :) Of course, if you like shopping, you are more likely to be a woman. 
+* But if you are tall, or weigh a lot or like "PC Software, Hardware" then you are probably a man.
+* Negative correlation between Life struggles and height/weight was due to the female and male separation.
+
+
+
 
 
 ******************************************************************************************************************************
@@ -114,6 +155,10 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 
 **Result:**
 ![espe](https://user-images.githubusercontent.com/25557540/38773149-0b71a46e-3ffb-11e8-90d9-bf9a53967117.png)
+
+* It was surprising to find that teenagers of age 15-16 tend to drink more even though they are not legally allowed to do so. * Underage drinking is a serious public health problem in the society. 
+* According to a study, Britain has the fourth highest levels of underage drinking among 15-years-olds. 
+* Parents and public welfare organizations can work together to fight this issue by focusing on the factors in the above analysis.
 ******************************************************************************************************************************
 ******************************************************************************************************************************
 ### V. Conclusion:
