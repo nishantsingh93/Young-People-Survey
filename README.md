@@ -105,6 +105,15 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 ******************************************************************************************************************************
 **Decision Tree:**
 
+* In this analysis, I have tried a decision tree as a machine learning technique to check wether I can get an interesting insight or not related to drinkers and non-drinkers.
+* For this analysis the following steps were performed:
+1. Null values were removed. This step was done as a common step at the top.
+2. The dummies variables were created from the categorical variables.
+3. A function is written to replace the string with numbers in the field Alcohol and store it in a new column Alcohol2.
+4. A decision tree with depth 3 was created.
+
+**Result:**
+![espe](https://user-images.githubusercontent.com/25557540/38773149-0b71a46e-3ffb-11e8-90d9-bf9a53967117.png)
 ******************************************************************************************************************************
 ******************************************************************************************************************************
 ### V. Conclusion:
