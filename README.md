@@ -64,9 +64,7 @@ responses4 = pd.get_dummies(columns=['Smoking', 'Punctuality', 'Lying','Alcohol'
 ![fvl](https://user-images.githubusercontent.com/25557540/38773150-0b88ff92-3ffb-11e8-9cf8-8abfefb67301.png)
 ![hvv](https://user-images.githubusercontent.com/25557540/38773152-0bb9bf7e-3ffb-11e8-9762-c33f02eecd7d.png)
 ![imp](https://user-images.githubusercontent.com/25557540/38773153-0bd1f1f2-3ffb-11e8-9a68-a3763fa2896e.png)
-![ivsin](https://user-images.githubusercontent.com/25557540/38773154-0beadbb8-3ffb-11e8-8bb5-7ac34c81b50b.png)
 
-![lvo](https://user-images.githubusercontent.com/25557540/38773156-0c1ac260-3ffb-11e8-9fcd-de59dd6d8fc5.png)
 ![mcvl](https://user-images.githubusercontent.com/25557540/38773157-0c32513c-3ffb-11e8-8777-36517774185a.png)
 ![nvl](https://user-images.githubusercontent.com/25557540/38773158-0c4a9936-3ffb-11e8-9952-b17663f4a64f.png)
 ![ovl](https://user-images.githubusercontent.com/25557540/38773159-0c633aae-3ffb-11e8-9337-51bc1e80dd6f.png)
